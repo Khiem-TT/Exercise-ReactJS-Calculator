@@ -32,8 +32,8 @@ function Calculator() {
         <div>
             <img src="https://product.hstatic.net/1000330808/product/880btg_hong_f0ffc5bcdd3e4b7691dd3f7e39d702cf.png" alt="" width="400px" height="400px"/>
             <h1>Calculator</h1>
-            <input type="number" value={num1} onChange={handleNum1Change}/>
-            <input type="number" value={num2} onChange={handleNum2Change}/>
+            <input type="number" onChange={handleNum1Change}/>
+            <input type="number" onChange={handleNum2Change}/>
             <p>Result: {result}</p>
             <button onClick={handleAdd}>+</button>
             <button onClick={handleSub}>-</button>
